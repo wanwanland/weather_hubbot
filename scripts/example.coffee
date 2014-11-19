@@ -17,6 +17,10 @@ module.exports = (robot) ->
     msg.send "おかえりなっしいー"
   robot.hear /できない/i, (msg) ->
     msg.send "がんばれなっしー"
+  robot.hear /イリュージョン(！|)/i, (msg) ->
+    msg.send "イリュージョン！・梨汁ブシャー"
+  robot.hear /もうダメだ/i, (msg) ->
+    msg.send "ヾ(。゜▽゜)ノ全ての人に評価や理解を求めると気が病むなっしー多少ダメな奴だと思われてるくらいが丁度いいなっしー♪何事もバランスが大事なっしー "
   # robot.hear /badger/i, (msg) ->
   #   msg.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #

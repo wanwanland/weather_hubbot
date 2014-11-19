@@ -12,7 +12,7 @@ module.exports = (robot) ->
   robot.hear /おはようございます/i, (msg) ->
     msg.send "おはなっしー"
   robot.hear /おやすみ/i, (msg) ->
-    msg.send "飛んで、飛んで、飛んで、飛んでーどこまで飛ぶのふなっしー"
+    msg.send "ぐっなっしー♪"
   robot.hear /帰宅/i, (msg) ->
     msg.send "おかえりなっしいー"
   robot.hear /できない/i, (msg) ->
@@ -21,6 +21,8 @@ module.exports = (robot) ->
     msg.send "イリュージョン！・梨汁ブシャー"
   robot.hear /もうダメだ/i, (msg) ->
     msg.send "ヾ(。゜▽゜)ノ全ての人に評価や理解を求めると気が病むなっしー多少ダメな奴だと思われてるくらいが丁度いいなっしー♪何事もバランスが大事なっしー "
+  robot.hear /(頑張った|がんばった)/i, (msg) ->
+    msg.send "感謝、感激、なし汁ぶしゃーーーーーーー"
   # robot.hear /badger/i, (msg) ->
   #   msg.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #

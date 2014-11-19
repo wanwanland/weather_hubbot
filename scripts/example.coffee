@@ -11,8 +11,12 @@
 module.exports = (robot) ->
   robot.hear /おはようございます/i, (msg) ->
     msg.send "おはなっしー"
-  robot.hear /いま何時？/i, (msg) ->
-    msg.send "くじら〜〜"
+  robot.hear /おやすみ/i, (msg) ->
+    msg.send "飛んで、飛んで、飛んで、飛んでーどこまで飛ぶのふなっしー"
+  robot.hear /帰宅/i, (msg) ->
+    msg.send "おかえりなっしいー"
+  robot.hear /できない/i, (msg) ->
+    msg.send "がんばれなっしー"
   # robot.hear /badger/i, (msg) ->
   #   msg.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #
